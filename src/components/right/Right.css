@@ -1,0 +1,31 @@
+.App-right__panel{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: 30px;
+  color: #ff5155;
+  font-family: 'Target3D', sans-serif;
+  text-align: start;
+}
+
+.App-right__panel span {
+  margin-top: 20px;
+}
+
+.App-right__panel.wide-screen span{
+  margin-top: 20px;
+}
+
+.App-right__panel.wide-screen {
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: end;
+  font-size: 50px;
+}
+.App-right__panel h4 {
+  font-family: 'TarrgetRegular', sans-serif;
+  font-size: 40px;
+}
