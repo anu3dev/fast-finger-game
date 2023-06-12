@@ -7,7 +7,7 @@ import { ResizeContext } from '../../context/resizeContext'
 
 export default function Welcome(props) {
   const inputRef = useRef();
-  const [state, setState] = useState({ name: "", difficultyLevel: {}, error:""});
+  const [state, setState] = useState({ name: "", difficultyLevel: {text: "EASY", difficultyFactor: 1}, error:""});
   const {isWideScreen} = useContext(ResizeContext);
 
   function startGame() {
